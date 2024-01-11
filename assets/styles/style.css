@@ -1,0 +1,393 @@
+.header{
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    top: 0%;
+    left: 0%;
+}
+
+div{
+    text-align: center;
+
+}
+
+header{
+    background-color: rgb(20, 20, 20);
+    padding: 0.3%;
+    width: 100%;
+    height: 10%;
+
+}
+
+nav{ 
+    padding-left: 40%;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.nav__links{
+    font-size: 200%;
+    word-spacing: 70px;
+    padding: 25px 0;
+    color: white;
+
+}
+
+
+.nav__links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav__links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+.menu{
+    font-family: "cream Demo";
+    padding-left: 3%;
+    padding-right: 3%;
+    outline: auto;
+    outline-width: 5%;
+    outline-style: solid;
+    outline-color: rgb(255, 0, 0);  
+    border: 1px solid rgb(255, 0, 0);
+    color: white;
+}   
+
+.home{
+    background-color: black;
+}
+
+
+@font-face {
+    font-family: Akira;
+    src: url('../fonts/Akira.otf');
+}
+
+
+h2{
+    font-family:'Akira' ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height:81px ;
+    color: white;
+    text-align: center;
+    padding: 3%;
+
+}
+
+
+.row{
+    display: flex;
+    margin-left: 34%;
+
+}
+
+
+h4{
+    font-family:'Akira' ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height:1px ;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.slayer{
+    text-align: center;
+}
+
+h6{
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height:1px ;
+    color: white;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.paddingtop{
+    padding-top: 5%;
+}
+
+.about{
+    background-color: black;
+}
+
+h7{
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height:1px ;
+    color: rgb(219, 0, 0);
+    margin-bottom: 4%;
+    text-align: center;
+    padding-left: 35%;
+}
+
+h8{
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height:1px ;
+    color: rgb(226, 0, 0);
+    margin-bottom: 4%;
+    text-align: center;
+    padding-left: 5%;
+    
+}
+
+h9{
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height:1px ;
+    color: rgb(255, 255, 255);
+    margin-bottom: 4%;
+    text-align: left;
+}
+
+
+
+p1{
+    color: white;
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 30px;
+}
+
+p2{
+    color: white;
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+
+    padding-right: 18%;
+}
+
+.row{
+    padding-right: 5%;
+}
+
+.col1{
+    padding-right: 10%;
+}
+
+.work{
+    background-color: black;
+}
+
+h10{
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height:1px ;
+    color: white;
+    text-align: center;
+
+}
+
+
+h11{
+    color: rgb(214, 0, 0);
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 35px;
+}
+
+p3{
+    color: white;
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 43px;
+}
+
+
+.thumbnail{
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 7%;
+}
+
+.thumbnail2{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+p4{
+    color: white;
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 43px;
+}
+
+.arcane{
+    text-align: center;
+    padding: 5%;
+}
+
+p5{
+    color: white;
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 43px;
+}
+
+.posters{
+    text-align: center;
+    padding: 5%;
+}
+
+p6{
+    color: white;
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 43px;
+}
+
+.thumbnail{
+    size: 10%;
+
+}
+
+
+p7{
+    color: white;
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 43px;  
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    size: 10px;
+}
+
+.description{
+    display: flex;
+ 
+  color: white;
+  font-family: 'cream Demo';
+  font-size: 43px;  
+  padding-left: 5%;
+  text-align: center;
+  padding-left: 40%;
+}
+
+.contact{
+    background-color: black;
+}
+
+
+
+
+.abc{
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    /* line-height:1px ; */
+    color: rgb(255, 255, 255);
+    /* margin-bottom: 4%; */
+    text-align: center; 
+    margin-top: 25rem;
+}
+
+.abc h12{
+   color: rgb(255, 255, 255);;
+
+}
+
+.abc h13{
+    color: rgb(226, 0, 0);;
+    margin-top: 10px;
+    padding: 1%;
+    text-align: center;
+}
+
+
+h12{
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height:1px ;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    padding-right: 25%;
+}
+
+h13{
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height:1px ;
+    color: rgb(226, 0, 0);
+    text-align: center;
+    padding-left: 5%;
+    margin-top: 10%;
+    display: block;
+    
+}
+
+.line{
+    text-align: left;
+    padding-left: 18%;
+}
+
+.smiley{
+    text-align: right;
+    padding-right: 8%;
+    padding-left: 10%;
+}
+
+.container{
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'cream Demo';
+    text-align: center;
+    font-size: 43px;  
+    display: contents;
+}
+
+
+
+.col2{
+    padding-right: 20%;
+    padding-left: 10%;
+}
+
+
+.col3{
+    padding-right: 30%;
+}
+
+.row2{
+   padding: 40%;
+}
+
+
